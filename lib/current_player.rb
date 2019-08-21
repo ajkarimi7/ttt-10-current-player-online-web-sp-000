@@ -1,5 +1,5 @@
 def turn_count(board)
-  turns = 6 
+  turns = 0 
   board.each do |token|
     if token == "X" || token = "O"
       turns += 1
